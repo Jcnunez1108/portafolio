@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+* {
+  background-color: #010016;
+  padding: 0;
+  margin: 0;
+  font-family: "Comfortaa", sans-serif;
+}
+nav {
+  background-color: #01001d;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  padding-top: 30px;
+}
+
+nav a {
+  margin-left: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.presentation-left {
+  margin-right: 150px;
+}
+
+.presentation-left H1 {
+  font-size: 100px;
+}
+
+.presentation-left H3 {
+  margin-left: 40px;
+  font-size: 40px;
+}
+
+.presentation-left H3:last-child {
+  margin: 0;
+  text-align: center;
+  color: #00aaff;
+}
+
+.presentation-left H3:last-child span {
+  color: #00ff26;
+}
+
+.presentation-divider {
+  padding: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentation-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.presentation-logo img {
+  width: 35px;
+  height: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.presentation-titles {
+  color: white;
+}
+
+.presentation-face img {
+  width: 500px;
+  height: 500px;
+  margin-left: 50px;
+}
