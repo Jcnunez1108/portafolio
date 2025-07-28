@@ -1,6 +1,6 @@
 # 🌐 My Web Portfolio
 
-Hey there! 👋 I'm **Juan Carlos Nuñez**, a frontend web developer passionate about building modern, fast, and responsive interfaces using **React.js**, **JavaScript**, **TailwindCSS**, and other web technologies.
+Hey there! 👋 I'm **Juan Carlos Nuñez**, a frontend web developer passionate about building modern, fast, and responsive interfaces using **HTML**, **CSS**,**JavaScript**, and other web technologies.
 
 This portfolio showcases some of my best projects, highlighting my technical skills, attention to detail, and user-focused approach. Each section reflects my growth as a developer and my commitment to learning and delivering scalable, real-world solutions.
 
