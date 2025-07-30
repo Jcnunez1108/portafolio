@@ -18,6 +18,17 @@ nav a {
   color: white;
   text-decoration: none;
 }
+section {
+  width: 100vw;
+  height: 100vh;
+}
+.presentation-divider {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
 
 .presentation-left {
   margin-top: 80px;
@@ -43,14 +54,6 @@ nav a {
   color: #00ff26;
 }
 
-.presentation-divider {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-}
-
 .presentation-logo {
   display: flex;
   flex-direction: row;
@@ -61,6 +64,7 @@ nav a {
   width: 35px;
   height: 35px;
   margin: 30px 30px 0px 30px;
+  transition: 0.3s;
 }
 
 .presentation-titles {
@@ -73,6 +77,28 @@ nav a {
   width: 300px;
   height: 300px;
 }
+
+.about-section {
+}
+.about {
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.about h2 {
+  margin: 20px 0px;
+  font-size: 30px;
+}
+.about p {
+  padding: 0px 20px;
+  margin: 20px 0px;
+  font-size: 20px;
+}
+
+/*Responsive 768px */
 @media screen and (min-width: 768px) {
   .presentation-divider {
     margin-top: 0px;
@@ -93,22 +119,46 @@ nav a {
   }
 }
 
+/*Responsive 1024px */
 @media screen and (min-width: 1024px) {
   .presentation-divider {
-    margin-top: 0px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .presentation-left {
+    text-align: start;
   }
   .presentation-left H3 {
+    margin-left: 60px;
+  }
+  .presentation-left H3:last-child {
     font-size: 35px;
+    text-align: start;
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 10px;
   }
   .presentation-left H1 {
     font-size: 80px;
   }
-  .presentation-logo img {
-    width: 50px;
-    height: 50px;
+  .presentation-logo {
+    margin-top: 10px;
+    justify-content: center;
   }
-  .presentation-face img {
-    width: 500px;
-    height: 500px;
+
+  .presentation-titles {
+    width: 100%;
   }
+}
+/*Responsive 1080px*/
+@media screen and (min-width: 1080px) {
+  .presentation-left {
+    padding: 0px 30px;
+  }
+}
+
+.presentation-logo img:hover {
+  width: 60px;
+  height: 60px;
 }
